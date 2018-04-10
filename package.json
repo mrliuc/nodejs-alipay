@@ -1,0 +1,33 @@
+{
+    "name": "nodejs-alipay",
+    "version": "1.0.5",
+    "description": "支付宝网页支付",
+    "main": "index.js",
+    "dependencies": {
+        "moment": "^2.22.0",
+        "querystring": "^0.2.0",
+        "request": "^2.85.0",
+        "xml2js": "^0.4.19"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mrliuc/tp-app.git"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "node ./test.js"
+    },
+    "keywords": [
+        "支付宝网页支付"
+    ],
+    "author": {
+        "name": "mrliuc"
+    },
+    "license": "ISC",
+    "gitHead": "62164033ff5c16f195f79b4cedfcf2146fa00785",
+    "bugs": {
+        "url": "https://github.com/mrliuc/tp-app/issues"
+    },
+    "homepage": "https://github.com/mrliuc/tp-app#readme"
+
+}
