@@ -13,8 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/mrliuc/nodejs-alipay.git"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint": "^8.6.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  },
   "scripts": {
+    "lint": "eslint --ext .js .",
     "test": "node ./test.js"
   },
   "keywords": [
